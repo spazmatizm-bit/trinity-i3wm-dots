@@ -161,7 +161,7 @@ RUNTIME_PKGS=(
     # X11 utils
     xorg-xrandr xorg-xset xorg-xsetroot xorg-xprop
     # Audio
-    pulseaudio pulseaudio-utils
+    pulseaudio
     # Network
     networkmanager network-manager-applet
     # Bluetooth
