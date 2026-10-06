@@ -1,10 +1,5 @@
 # ~/.config/fish/config.fish
 
-if status is-interactive
-    zoxide init fish | source
-    fzf --fish | source
-end
-
 alias please='doas'
 
 # ===== Trixity greeting =====
