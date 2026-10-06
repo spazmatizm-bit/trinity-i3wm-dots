@@ -1,0 +1,28 @@
+[general]
+bars = 24
+bar_width = 2
+bar_spacing = 1
+framerate = 60
+autosens = 1
+sensitivity = 100
+
+[input]
+method = pipewire
+source = auto
+
+[output]
+method = ncurses
+channels = stereo
+
+[color]
+foreground = '#7fb08a'
+gradient = 1
+gradient_count = 4
+gradient_color_1 = '#1e2720'
+gradient_color_2 = '#3a4a3e'
+gradient_color_3 = '#8fc4a0'
+gradient_color_4 = '#7fb08a'
+
+[smoothing]
+noise_reduction = 50
+background = '#1e2720'

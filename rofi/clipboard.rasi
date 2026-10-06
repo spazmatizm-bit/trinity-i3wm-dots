@@ -1,0 +1,10 @@
+@import "~/.config/rofi/nord.rasi"
+
+window {
+    width: 40%;
+    height: 50%;
+    border-radius: 10px;
+}
+listview {
+    lines: 12;
+}

@@ -1,0 +1,17 @@
+configuration {
+    font: "JetBrainsMono Nerd Font 11";
+    show-icons: true;
+    icon-theme: "Papirus";
+    drun-display-format: "{name}";
+}
+
+@theme "~/.config/rofi/theme.rasi"
+
+listview {
+    lines: 8;
+    columns: 1;
+}
+
+window {
+    width: 30%;
+}

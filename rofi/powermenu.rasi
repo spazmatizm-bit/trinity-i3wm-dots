@@ -1,0 +1,18 @@
+@import "~/.config/rofi/nord.rasi"
+
+window {
+    width: 20%;
+    border-radius: 10px;
+    padding: 10px;
+}
+listview {
+    lines: 5;
+}
+element {
+    padding: 10px;
+    border-radius: 6px;
+}
+element selected {
+    background-color: #88c0d0;
+    text-color: #2e3440;
+}

@@ -1,0 +1,20 @@
+/* Trinity Settings - Forest */
+
+window#trinity-settings { background-color: #1e2720; color: #e0e8dc; }
+.sidebar { background-color: #3a4a3e; padding: 16px 8px; border-right: 1px solid #1e2720; }
+.sidebar-title { color: #7fb08a; padding: 8px 16px; margin-bottom: 0; }
+button.sidebar-btn { background-color: transparent; background-image: none; color: #e0e8dc; border: none; border-radius: 6px; padding: 10px 16px; font-size: 13px; min-height: 32px; }
+button.sidebar-btn:hover { background-color: #57655a; }
+button.sidebar-btn.active { background-color: #7fb08a; color: #1e2720; }
+.section-title { color: #7fb08a; margin-top: 8px; }
+.param-label { color: #e0e8dc; font-size: 12px; }
+scale.param-slider trough { background-color: #3a4a3e; border-radius: 4px; min-height: 6px; }
+scale.param-slider highlight { background-color: #7fb08a; border-radius: 4px; }
+scale.param-slider slider { background-color: #e0e8dc; border: 2px solid #7fb08a; min-width: 12px; min-height: 12px; border-radius: 8px; margin: -4px 0; }
+switch { background-color: #3a4a3e; border-radius: 12px; min-width: 40px; min-height: 22px; }
+switch:checked { background-color: #7fb08a; }
+switch slider { background-color: #e0e8dc; border-radius: 10px; min-width: 18px; min-height: 18px; }
+button.action-btn { background-color: #3a4a3e; color: #e0e8dc; border: none; border-radius: 6px; padding: 10px 16px; font-size: 13px; min-height: 36px; }
+button.action-btn:hover { background-color: #7fb08a; color: #1e2720; }
+button.danger-btn { background-color: #c97064; color: #e0e8dc; border: none; border-radius: 6px; padding: 10px 16px; min-height: 36px; }
+separator { background-color: #3a4a3e; min-height: 1px; margin: 8px 0; }

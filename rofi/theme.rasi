@@ -1,0 +1,21 @@
+/* Trinity Rofi - Forest */
+
+* {
+    bg:     #1e2720;
+    bg-alt: #3a4a3e;
+    fg:     #e0e8dc;
+    fg-alt: #8a9584;
+    accent: #7fb08a;
+    urgent: #c97064;
+    background-color: @bg;
+    text-color: @fg;
+}
+
+window { width: 30%; border: 2px; border-color: @accent; border-radius: 8px; background-color: @bg; padding: 12px; }
+inputbar { background-color: @bg-alt; text-color: @fg; padding: 8px; border-radius: 4px; children: [ prompt, entry ]; }
+prompt { background-color: transparent; text-color: @accent; padding: 0 8px 0 0; }
+entry { background-color: transparent; text-color: @fg; }
+listview { background-color: transparent; padding: 8px 0 0 0; lines: 8; columns: 1; }
+element { background-color: transparent; text-color: @fg; padding: 6px 8px; border-radius: 4px; }
+element selected { background-color: @accent; text-color: @bg; }
+element-icon { background-color: transparent; size: 1.2em; padding: 0 8px 0 0; }
