@@ -184,7 +184,7 @@ if [ ${#MISSING[@]} -gt 0 ]; then
     info "Installing ${#MISSING[@]} missing packages:"
     for pkg in "${MISSING[@]}"; do echo "      + $pkg"; done
     echo ""
-    sudo pacman -S --needed --noconfirm "${MISSING[@]}" 2>&1 | tail -3
+    sudo pacman -S --needed "${MISSING[@]}" 2>&1 | tail -3
     ok "Runtime packages installed"
 else
     ok "All runtime packages already installed"
